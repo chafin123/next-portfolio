@@ -8,12 +8,13 @@ import Resume from "../molecules/Resume";
 import About from "../molecules/About";
 import Contact from "../molecules/Contact";
 
-const Accordion = () => {
+const Accordion = (props) => {
     
     const [activeIndex, setActiveIndex] = useState(null);
     return (
         <div className="flex flex-col justify-start items-start w-full">
-            <Projects 
+            <Projects
+                props={props} 
                 accordIndex={1}
                 activeIndex={activeIndex}
                 setActiveIndex={setActiveIndex}

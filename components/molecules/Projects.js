@@ -1,9 +1,12 @@
 import AccordionLayout from "../atoms/AccordionLayout";
-import projects from '../../shared/projects.json'
-import React, { useState } from 'react';
+import ProjectShowcase from "../atoms/ProjectShowcase";
+import { useState } from 'react';
 
 
-const Projects = ({accordIndex, activeIndex, setActiveIndex ,onClick}) => {
+const Projects = ({props, accordIndex, activeIndex, setActiveIndex ,onClick}) => {
+    
+    
+    const [activeShowCaseIndex, setActiveShowCaseIndex] = useState(null);
 
     return (
         <AccordionLayout title="Projects"
@@ -13,14 +16,25 @@ const Projects = ({accordIndex, activeIndex, setActiveIndex ,onClick}) => {
                 flexLayout={false}
                 onClick={onClick}
             >
-                {projects.projects.map((project, index) => {
+                 {props.props.projects.map((project, index) => {
                     return (
                         <div 
                             key={index} 
                             className="text-start self-start"
                         >
-                            <button type="button" data-bs-toggle="modal" data-bs-target={`#${project.name}modal`}  className="text-black font-mono">/*{project.name}</button>
-                            
+
+                        <ProjectShowcase
+                                showCaseIndex={project.number}
+                                activeShowCaseIndex={activeShowCaseIndex}
+                                setActiveShowCaseIndex={setActiveShowCaseIndex}
+                                title={project.name}
+                                src={project.image}
+                                alt={project.name}
+                                height={100}
+                                width={100}
+                                writeup={project.writeup}
+                                techs={project.techs}
+                            />
                         </div>
                     )
                 })}

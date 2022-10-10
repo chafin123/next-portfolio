@@ -2,21 +2,41 @@
     "projects": [
         {
             "name":"Pricing Component",
-            "url":"/",
-            "image":"blank",
+            "url":"https://chafin123.github.io/interactive-pricing-component-main/",
+            "image":"/images/pricing-component.png",
+            "writeup":"Mollit velit est magna duis laborum velit esse elit dolor velit. Commodo pariatur consequat sunt do id. Cupidatat adipisicing mollit eiusmod adipisicing. Ipsum Lorem occaecat cupidatat id amet aliqua eiusmod. Cillum eiusmod et quis excepteur aute. Incididunt ex cupidatat veniam id non non sunt eu velit exercitation consectetur.",
+            "techs":[
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
             "number":1
         },
         {
             "name":"Advice Generator",
-            "url":"/",
-            "image":"blank",
+            "url":"https://chafin123.github.io/advice-generator-app-main/",
+            "image":"/images/advice-generator.png",
+            "writeup":"Mollit velit est magna duis laborum velit esse elit dolor velit. Commodo pariatur consequat sunt do id. Cupidatat adipisicing mollit eiusmod adipisicing. Ipsum Lorem occaecat cupidatat id amet aliqua eiusmod. Cillum eiusmod et quis excepteur aute. Incididunt ex cupidatat veniam id non non sunt eu velit exercitation consectetur.",
+            "techs":[
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
             "number":2
+
         },
         {
             "name":"Job Listing",
-            "url":"/",
-            "image":"blank",
+            "url":"https://chafin123.github.io/static-job-listings-master/",
+            "image":"/images/job-listing.png",
+            "writeup":"Mollit velit est magna duis laborum velit esse elit dolor velit. Commodo pariatur consequat sunt do id. Cupidatat adipisicing mollit eiusmod adipisicing. Ipsum Lorem occaecat cupidatat id amet aliqua eiusmod. Cillum eiusmod et quis excepteur aute. Incididunt ex cupidatat veniam id non non sunt eu velit exercitation consectetur.",
+            "techs":[
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
             "number":3
+
         }
        
     ]

@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Accordion from '../components/organisms/Accordion'
 import styles from '../styles/Home.module.css'
 import TypingEffect from '../components/molecules/TypeEffect'
-export default function Home() {
+import projects from '../shared/projects.json'
+
+export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,22 +19,21 @@ export default function Home() {
         </h1>
           <TypingEffect />
         <div className="justify-center self-center justify-self-center text-center mx-auto w-full">
-          <Accordion />
+          <Accordion props={data} />
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+
       </footer>
     </div>
   )
+}
+export async function getStaticProps() {
+  const data = projects;
+  return {
+    props: {
+      data
+    }, // will be passed to the page component as props
+  }
 }
