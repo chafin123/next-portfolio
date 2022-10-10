@@ -1,0 +1,23 @@
+{
+    "projects": [
+        {
+            "name":"Pricing Component",
+            "url":"/",
+            "image":"blank",
+            "number":1
+        },
+        {
+            "name":"Advice Generator",
+            "url":"/",
+            "image":"blank",
+            "number":2
+        },
+        {
+            "name":"Job Listing",
+            "url":"/",
+            "image":"blank",
+            "number":3
+        }
+       
+    ]
+}

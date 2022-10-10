@@ -1,0 +1,11 @@
+.frontend {
+    @apply border border-transparent rounded-3xl text-xs px-2 mx-1 my-1 w-fit text-gray-600 bg-cyan-400;
+}
+
+.seo {
+    @apply border border-transparent rounded-3xl text-xs px-2 mx-1 my-1 w-fit text-gray-600 bg-orange-400;
+}
+
+.sem {
+    @apply border border-transparent rounded-3xl text-xs px-2 mx-1 my-1 w-fit text-gray-600 bg-green-400;
+}

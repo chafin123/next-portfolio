@@ -1,0 +1,6 @@
+.accordionBody {
+    @apply  p-4 mb-6;
+}
+.accordionSkillBody {
+    @apply  p-4 mb-6 flex flex-row flex-wrap max-w-lg;
+}

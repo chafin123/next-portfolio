@@ -1,0 +1,15 @@
+{
+    "experiences":
+    [
+        {
+            "name":"Alopex Interaction Design",
+            "image": "./icons/alopex-badge.svg",
+            "link": "src"
+        },
+        {
+            "name":"Nucamp",
+            "image": "./icons/nucamp-badge.png",
+            "link": "src"
+        } 
+    ]
+}

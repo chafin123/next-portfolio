@@ -1,0 +1,36 @@
+{
+    "skills": [
+       {
+        "name":"React",
+        "type":"frontend"
+       }, 
+       {
+        "name":"Next JS",
+        "type":"frontend"
+       }, 
+       {
+        "name":"Tailwind CSS",
+        "type":"frontend"
+       }, 
+       {
+        "name":"Java Script",
+        "type":"frontend"
+       }, 
+       {
+        "name":"CSS",
+        "type":"frontend"
+       }, 
+       {
+        "name":"HTML",
+        "type":"frontend"
+       }, 
+       {
+        "name":"Search Engine Optimization",
+        "type":"seo"
+       }, 
+       {
+        "name":"Google Ads",
+        "type":"sem"
+       }
+    ]
+}
