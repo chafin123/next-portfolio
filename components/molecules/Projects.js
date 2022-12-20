@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import AccordionLayout from "../atoms/AccordionLayout";
-import ProjectShowcase from "../atoms/ProjectShowcase";
 import { useState } from 'react';
 import projects from '../../shared/projects.json'
 import Link from "next/link";
