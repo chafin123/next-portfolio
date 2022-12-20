@@ -2,7 +2,7 @@
     "projects": [
         {
             "name":"Smart Home Frontier",
-            "url":"https://chafin123.github.io/smart-home-frontier-main/",
+            "url":"https://smart-home-frontier.vercel.app/",
             "image":"/images/Smart-Home-Frontier.png",
             "writeup":"I found this project very valuable as I worked with a content manager I had never used before and it required to wrap my head around the languege the use to pull data from the CM to use in the website. One of the things I would like to do with this website is implement pagenation.",
             "techs":[
