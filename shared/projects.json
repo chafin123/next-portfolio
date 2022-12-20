@@ -45,6 +45,8 @@
                 "HTML",
                 "CSS"
             ],
+            "height": 1000,
+            "width": 600,
             "id":3
 
         }

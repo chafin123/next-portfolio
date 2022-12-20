@@ -4,3 +4,15 @@
 .accordionSkillBody {
     @apply  p-4 mb-6 flex flex-row flex-wrap max-w-lg;
 }
+
+.show {
+    max-height: 400px;
+    transition: max-height 0.3s ease-in-out;
+
+}
+
+.noShow {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}

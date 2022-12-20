@@ -22,6 +22,9 @@ h1,
 h2 {
   @apply font-ibm text-cyan-300;
 }
+h2{
+  @apply  text-4xl hover:text-5xl transition-all duration-75 ease-in-out;
+}
 span, p {
   @apply font-mono inline-block text-lime-600;
 }

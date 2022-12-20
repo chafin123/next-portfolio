@@ -9,11 +9,11 @@ const AccordionLayout = ({title, children, accordIndex, activeIndex, setActiveIn
                     <div><h2>{title}</h2></div>
                 </div>
             </div>
-            {(activeIndex === accordIndex) && (
-            <div className={styles[(flexLayout ? "accordionSkillBody" : "accordionBody")]}>
-                {children}
+            <div className={(activeIndex === accordIndex ? styles.show : styles.noShow )} >
+                <div className={styles[(flexLayout ? "accordionSkillBody" : "accordionBody")]}>
+                    {children}
+                </div>
             </div>
-            )}
         </>    
     )
 }
