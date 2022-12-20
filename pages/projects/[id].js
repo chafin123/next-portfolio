@@ -27,7 +27,7 @@ export const getStaticProps = (context) => {
 }
 
 const Project = ({project}) => {
-   return ( 
+  if(project) return ( 
     <div className='max-w-[1440px] justify-center items-center text-center py-2'>
         <div className='flex mx-auto w-fit my-4'>
             <div className='pt-3 pr-5'>
