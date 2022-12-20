@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import AccordionLayout from "../atoms/AccordionLayout";
 import ProjectShowcase from "../atoms/ProjectShowcase";
 import { useState } from 'react';
