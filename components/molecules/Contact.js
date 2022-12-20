@@ -12,19 +12,19 @@ const Contact = ({accordIndex, activeIndex, setActiveIndex, onClick}) => {
                 flexLayout={true}
                 onClick={onClick}
             >
-                <div>
+                <div className="pr-4">
                     <a href="mailto: stevend.chafin@gmail.com">
-                        <FontAwesomeIcon icon={faEnvelope} />
+                        <FontAwesomeIcon icon={faEnvelope} className="text-lime-500"/>
                     </a>
                 </div>
-                <div>
+                <div className="pr-4">
                     <a href="https://www.linkedin.com/in/steven-chafin-3174a1184/">
-                        <FontAwesomeIcon icon={faLinkedin} />
+                        <FontAwesomeIcon icon={faLinkedin} className="text-lime-500"/>
                     </a>
                 </div>
                 <div>
                     <a href="https://github.com/chafin123">
-                        <FontAwesomeIcon icon={faGithub}/>
+                        <FontAwesomeIcon icon={faGithub} className="text-lime-500"/>
                     </a>
                 </div>
             </AccordionLayout>

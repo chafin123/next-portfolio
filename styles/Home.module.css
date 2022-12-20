@@ -1,5 +1,5 @@
 .container {
-  @apply mx-auto max-w-[1440px];
+  @apply mx-auto w-11/12 lg:max-w-[1440px];
 }
 
 .main {
@@ -19,13 +19,6 @@
   align-items: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -38,9 +31,7 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  @apply m-0 my-2 text-6xl;
 }
 
 .title,

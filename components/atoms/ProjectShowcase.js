@@ -10,24 +10,29 @@ const ProjectShowcase = ({showCaseIndex,activeShowCaseIndex, setActiveShowCaseIn
         <div onClick={() => handleSetShowCaseIndex(showCaseIndex)}>
         <p>/*{title}</p>
         {(activeShowCaseIndex === showCaseIndex) && 
-            <><div className={styles.projectTitle}>
+            <div className={styles.projectShowcaseContainer}>
+                    <div className={styles.projectTitle}>
                         {title}
-                    </div><div className={styles.projectImage}>
-                            <Image
-                                src={src}
-                                alt={alt}
-                                layout="intrinsic"
-                                height={height}
-                                width={width} />
-                        </div><div className={styles.projectWriteup}>
+                    </div>
+                    <div className={styles.projectImage}>
+                        <Image
+                            src={src}
+                            alt={alt}
+                            layout="intrinsic"
+                            height={height}
+                            width={width} />
+                        </div>
+                        <div className={styles.projectWriteup}>
                             {writeup}
-                        </div><div className={styles.projectTech}>
+                        </div>
+                            <div className={styles.projectTech}>
                             {techs.map((tech, index) => {
                                 <div key={index} className={styles.pill}>
                                     {tech.name}
                                 </div>;
                             })}
-                        </div></>
+                        </div>
+                    </div>
                 }
             </div>
     </div>

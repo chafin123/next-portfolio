@@ -1,0 +1,14 @@
+.text {
+    @apply pl-3 hidden;
+}
+.container {
+    @apply flex;
+}
+
+.container:first-child {
+    @apply py-1;
+}
+
+.icons:hover + .text {
+    @apply block;
+}

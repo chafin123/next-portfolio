@@ -1,3 +1,14 @@
-.projectShowCase {
-    @apply inline-block;
+.projectShowcaseContainer {
+    @apply absolute h-full w-full left-96 mx-auto my-auto z-10 border bg-slate-600/50;
+}
+.projectTitle {
+
+}
+
+.projectImage {
+
+}
+
+.projectWriteup {
+    
 }

@@ -1,0 +1,3 @@
+.container {
+    @apply max-w-xl pr-4 m-3;
+}
