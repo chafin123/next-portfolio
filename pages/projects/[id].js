@@ -44,12 +44,12 @@ const Project = ({project}) => {
                 src={project.image}
                 alt={project.name}
                 layout="intrinsic"
-                height={400}
-                width={400}
+                height={project.height}
+                width={project.width}
             />
         </div>
         <div className='w-10/12 lg:max-w-8/12 mx-auto'>
-            <p>{project.writeup}</p>
+            <p className='text-cyan-300'>{project.writeup}</p>
         </div>
         <div className='flex justify-center mt-4'>
             {project.techs.map((tech, index) => {

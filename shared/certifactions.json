@@ -1,0 +1,11 @@
+{
+    "certifactions":
+    [
+        {
+            "name":"Frontend Development",
+            "image": "/images/Nucamp-cert.png",
+            "alt": "Frontend Certificate From Nucamp",
+            "id": 1
+        }
+    ]
+}

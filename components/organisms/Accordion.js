@@ -7,6 +7,7 @@ import Certifications from "../molecules/Certifications";
 import Resume from "../molecules/Resume";
 import About from "../molecules/About";
 import Contact from "../molecules/Contact";
+import Link from 'next/link';
 
 const Accordion = () => {
     
@@ -37,12 +38,11 @@ const Accordion = () => {
                 setActiveIndex={setActiveIndex}
                 onClick={() => handleSetIndex(accordIndex)}
             />
-            <Resume 
-                accordIndex={5}
-                activeIndex={activeIndex}
-                setActiveIndex={setActiveIndex}
-                onClick={() => handleSetIndex(accordIndex)}
-            />
+            <div className="flex justify-between p-2 mt-2 rounded w-fit cursor-pointer">
+                <Link href={'https://drive.google.com/uc?export=download&id=1QmMQG-sum78NxQaf1Gfz2Wa9-CXvTNt3'}>
+                    <h2>Resume</h2>
+                </Link>
+            </div>
             <About 
                 accordIndex={6}
                 activeIndex={activeIndex}

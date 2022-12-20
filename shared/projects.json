@@ -3,7 +3,7 @@
         {
             "name":"Smart Home Frontier",
             "url":"https://chafin123.github.io/smart-home-frontier-main/",
-            "image":"/images/pricing-component.png",
+            "image":"/images/Smart-Home-Frontier.png",
             "writeup":"I found this project very valuable as I worked with a content manager I had never used before and it required to wrap my head around the languege the use to pull data from the CM to use in the website. One of the things I would like to do with this website is implement pagenation.",
             "techs":[
                 "Javascript",
@@ -13,13 +13,15 @@
                 "Next.js",
                 "Sanity"
             ],
+            "height":1000,
+            "width":800,
             "id":1
         },
         {
             "name":"Hydrate Alaska",
             "url":"https://hydrateak.com/",
-            "image":"/images/advice-generator.png",
-            "writeup":"This is a website that I worked on for our client, the big thing I made was the menu system on the IV and Injection pages. This was extremly valuable because I learned how to work with not only Word Press but I also had to learn to work with PHP, which wasn't very hard, after having a strong grasp on progamming from learning JavaScript I quickly realized what I need to do, I just had to look up syntax and proper struture of PHP and I was off to the races. I also worked closely with my seniors which gave me more experince developing with other people. At one point we had a bit of a crunch and while it was stressfull I had a moment where I thought to myself 'I can do this under stress, and I'm still loving it.' ",
+            "image":"/images/Hydrate-menu.png",
+            "writeup":"This is a website that I worked on for our client, the big thing I made was the menu system on the IV and Injection pages. The menu also dynamicly shows packages based on categories. This was extremly valuable because I learned how to work with not only Word Press but I also had to learn to work with PHP, which wasn't very hard, after having a strong grasp on progamming from learning JavaScript I quickly realized what I need to do, I just had to look up syntax and proper struture of PHP and I was off to the races. I also worked closely with my seniors which gave me more experince developing with other people. At one point we had a bit of a crunch and while it was stressfull I had a moment where I thought to myself 'I can do this under stress, and I'm still loving it.' ",
             "techs":[
                 "Javascript",
                 "PHP",
@@ -28,6 +30,8 @@
                 "HTML",
                 "CSS"
             ],
+            "height": 1000,
+            "width": 800,
             "id":2
 
         },

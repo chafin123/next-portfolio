@@ -1,5 +1,7 @@
 import AccordionLayout from "../atoms/AccordionLayout";
 import Image from "next/image";
+import Link from "next/link";
+import certifications from '../../shared/certifactions.json'
 
 const Certifications = ({accordIndex, activeIndex, setActiveIndex ,onClick}) => {
     return (
@@ -10,13 +12,13 @@ const Certifications = ({accordIndex, activeIndex, setActiveIndex ,onClick}) => 
                 flexLayout={false}
                 onClick={onClick}
     >
-        <Image 
-            src={"/images/Screenshot 2022-10-09 110023.png"}
-            alt="Frontend Certificate From Nucamp"
-            layout="fixed"
-            width={20}
-            height={20}
-        />
+        {certifications.certifactions.map((cert, index) => {
+            return (
+
+        <Link key={index} href={'/certifactions/' + cert.id}>
+            <p>/*{cert.alt}</p>
+        </Link>
+            )})}
     </AccordionLayout>
     )
 }

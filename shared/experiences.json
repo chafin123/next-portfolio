@@ -1,0 +1,35 @@
+{
+    "experiences":
+    [
+        {
+            "name":"Alopex Interaction Design",
+            "image": "/icons/alopex-badge.svg",
+            "link": "src",
+            "skills": [
+                "React",
+                "WordPress",
+                "Next.js",
+                "Collboration",
+                "Questions",
+                "Learning"
+            ],
+            "writeup": "Sit sunt amet officia aliquip voluptate labore sunt. Eiusmod nostrud in do sit exercitation ut sit veniam laboris incididunt. Labore ea reprehenderit aute magna qui. Id sunt tempor sint excepteur labore commodo exercitation eiusmod elit incididunt do ea. Dolore amet id voluptate enim sint Lorem eiusmod do exercitation exercitation esse dolore.",
+            "id": 1
+        },
+        {
+            "name":"Nucamp",
+            "image": "/icons/nucamp-badge.png",
+            "link": "src",
+            "skills": [
+                "React",
+                "React Native",
+                "Bootstrap",
+                "Collboration",
+                "Questions",
+                "Learning"
+            ],
+            "writeup": "Sit sunt amet officia aliquip voluptate labore sunt. Eiusmod nostrud in do sit exercitation ut sit veniam laboris incididunt. Labore ea reprehenderit aute magna qui. Id sunt tempor sint excepteur labore commodo exercitation eiusmod elit incididunt do ea. Dolore amet id voluptate enim sint Lorem eiusmod do exercitation exercitation esse dolore.",
+            "id": 2
+        } 
+    ]
+}
