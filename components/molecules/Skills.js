@@ -13,8 +13,8 @@ const Skills = ({accordIndex, activeIndex, setActiveIndex, onClick}) => {
                 {skills.skills.map((skill,index) => {
                     return  ( 
                         <div key={index} >
-                            <div className={styles[skill.type]}>
-                                <p>{skill.name}</p>
+                            <div className={`${styles[skill.type]} ${styles.skillPill}`}>
+                                <p className={styles.skillText}>{skill.name}</p>
                             </div>
                         </div>
                     )

@@ -14,17 +14,17 @@ const Contact = ({accordIndex, activeIndex, setActiveIndex, onClick}) => {
             >
                 <div className="pr-4">
                     <a href="mailto: stevend.chafin@gmail.com">
-                        <FontAwesomeIcon icon={faEnvelope} className="text-lime-500"/>
+                        <FontAwesomeIcon icon={faEnvelope} className="text-lime-500 h-[30px] hover:translate-y-[-4px] transtion-all duration-75 ease-in-out"/>
                     </a>
                 </div>
                 <div className="pr-4">
                     <a href="https://www.linkedin.com/in/steven-chafin-3174a1184/">
-                        <FontAwesomeIcon icon={faLinkedin} className="text-lime-500"/>
+                        <FontAwesomeIcon icon={faLinkedin} className="text-lime-500 h-[30px] hover:translate-y-[-4px] transtion-all duration-75 ease-in-out"/>
                     </a>
                 </div>
-                <div>
+                <div className="">
                     <a href="https://github.com/chafin123">
-                        <FontAwesomeIcon icon={faGithub} className="text-lime-500"/>
+                        <FontAwesomeIcon icon={faGithub} className="text-lime-500 h-[30px] hover:translate-y-[-4px] transtion-all duration-75 ease-in-out"/>
                     </a>
                 </div>
             </AccordionLayout>

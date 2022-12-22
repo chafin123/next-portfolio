@@ -30,7 +30,7 @@ const Project = ({project}) => {
   if(project) return ( 
     <div className='max-w-[1440px] justify-center items-center text-center py-2'>
         <div className='flex mx-auto w-fit my-4'>
-            <div className='pt-3 pr-5'>
+            <div className='pt-3 pr-5 cursor-pointer hover:translate-x-[-4px]'>
                 <Link href="/">
                     <FontAwesomeIcon icon={faBackward}/>
                 </Link>
@@ -40,13 +40,15 @@ const Project = ({project}) => {
             </div>
         </div>
         <div className={styles.imageWrapper}>
-            <Image 
-                src={project.image}
-                alt={project.name}
-                layout="intrinsic"
-                height={project.height}
-                width={project.width}
-            />
+            <Link href={project.url}>
+                <Image 
+                    src={project.image}
+                    alt={project.name}
+                    layout="intrinsic"
+                    height={project.height}
+                    width={project.width}
+                />
+            </Link>
         </div>
         <div className='w-10/12 lg:max-w-8/12 mx-auto'>
             <p className='text-cyan-300'>{project.writeup}</p>

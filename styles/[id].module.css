@@ -3,7 +3,7 @@
 }
 
 .imageWrapper > span {
-    @apply rounded-sm;
+    @apply rounded-sm  cursor-pointer;
     box-shadow: 10px 10px 30px 3px rgba(0,0,0,0.36);
 
 }

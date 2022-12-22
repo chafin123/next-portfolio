@@ -4,7 +4,6 @@ import Skills from "../molecules/Skills";
 import Projects from "../molecules/Projects";
 import Experience from "../molecules/Experience";
 import Certifications from "../molecules/Certifications";
-import Resume from "../molecules/Resume";
 import About from "../molecules/About";
 import Contact from "../molecules/Contact";
 import Link from 'next/link';
@@ -44,13 +43,13 @@ const Accordion = () => {
                 </Link>
             </div>
             <About 
-                accordIndex={6}
+                accordIndex={5}
                 activeIndex={activeIndex}
                 setActiveIndex={setActiveIndex}
                 onClick={() => handleSetIndex(accordIndex)}
             />
             <Contact 
-                index={7}
+                index={6}
                 activeIndex={activeIndex}
                 setActiveIndex={setActiveIndex}
                 onClick={() => handleSetIndex(accordIndex)}

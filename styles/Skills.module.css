@@ -1,11 +1,23 @@
+.skillPill {
+    @apply border border-transparent rounded-3xl text-xs px-2 mx-1 my-1 w-fit;
+}
+
+.skillText {
+    @apply text-black;
+}
+
 .frontend {
-    @apply border border-transparent rounded-3xl text-xs px-2 mx-1 my-1 w-fit text-gray-600 bg-cyan-400;
+    @apply bg-cyan-400;
+}
+
+.backend {
+    @apply bg-purple-400;
 }
 
 .seo {
-    @apply border border-transparent rounded-3xl text-xs px-2 mx-1 my-1 w-fit text-gray-600 bg-orange-400;
+    @apply bg-orange-400;
 }
 
 .sem {
-    @apply border border-transparent rounded-3xl text-xs px-2 mx-1 my-1 w-fit text-gray-600 bg-green-400;
+    @apply  bg-green-400;
 }

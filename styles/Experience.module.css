@@ -1,5 +1,5 @@
 .text {
-    @apply pl-3 hidden;
+    @apply pl-3;
 }
 .container {
     @apply flex;
@@ -8,7 +8,9 @@
 .container:first-child {
     @apply py-1;
 }
-
-.icons:hover + .text {
+.icons {
+    @apply hidden pt-4 pl-2;
+}
+.text:hover + .icons {
     @apply block;
 }
