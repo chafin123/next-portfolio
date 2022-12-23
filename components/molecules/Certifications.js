@@ -17,7 +17,7 @@ const Certifications = ({accordIndex, activeIndex, setActiveIndex ,onClick}) => 
             return (
 
         <Link key={index} href={'/certifactions/' + cert.id}>
-            <h2>/*{cert.alt}</h2>
+            <h3 className="text-start">/*{cert.alt}</h3>
         </Link>
             )})}
     </AccordionLayout>

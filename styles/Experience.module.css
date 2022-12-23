@@ -1,5 +1,5 @@
 .text {
-    @apply pl-3;
+    @apply pl-3 text-start;
 }
 .container {
     @apply flex;
@@ -9,7 +9,7 @@
     @apply py-1;
 }
 .icons {
-    @apply hidden pt-4 pl-2;
+    @apply hidden pt-1 xl:pt-4 pl-2;
 }
 .text:hover + .icons {
     @apply block;

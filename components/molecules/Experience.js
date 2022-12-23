@@ -18,9 +18,9 @@ const Experience = ({accordIndex, activeIndex, setActiveIndex, onClick}) => {
                 <div key={index} className={styles.container}>
                     <Link href={'/experiences/' + experience.id}>
                         <div className={styles.text}>
-                            <h2>
+                            <h3>
                             /*{experience.name}
-                            </h2>
+                            </h3>
                         </div>
                     </Link>
                         <div className={styles.icons}>

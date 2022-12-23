@@ -25,15 +25,13 @@ class Typing extends React.Component {
     render() {
       return (
         <div className='flex'>
-            <div className='pr-1'>
+            <div className='md:pr-1'>
                 <span
                     ref={(el) => {
                     this.el = el;
                     }}
                 />
-            </div>
-            <div>
-                <p>Front End Developer</p>
+                <p className='pl-1'>Front End Developer</p>
             </div>
         </div>
       );

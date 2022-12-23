@@ -22,7 +22,7 @@ const Projects = ({props, accordIndex, activeIndex, setActiveIndex ,onClick}) =>
                             href={'/projects/' + project.id} 
                         >
                         <a className="text-start self-start">
-                                <h2>/*{project.name}</h2>
+                                <h3>/*{project.name}</h3>
                         </a>
                         </Link>
                     )
